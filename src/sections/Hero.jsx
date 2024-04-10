@@ -1,5 +1,5 @@
 import Button from "../Components/Button"
-import ShoeCard from "../Components/ShoeCard"
+import BatCard from "../Components/BatCard"
 import { statistics, bats } from "../Constants"
 import { arrowRight } from "../assets/icons"
 
@@ -59,7 +59,7 @@ const Hero = () => {
         <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-4'>
           {bats.map((image, index) => (
             <div key={index}>
-              <ShoeCard
+              <BatCard
                 index={index}
                 imgURL={image}
                 changeBigBatImage={(bat) => setBatImg(bat)}
