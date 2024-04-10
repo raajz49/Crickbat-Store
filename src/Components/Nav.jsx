@@ -1,4 +1,4 @@
-import {cricketbatlogo, criclogo, headerLogo} from '../assets/images';
+import {cricketbatlogo} from '../assets/images';
 import {hamburger} from '../assets/icons';
 import { navLinks } from '../Constants';
 

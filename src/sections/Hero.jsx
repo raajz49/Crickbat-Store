@@ -1,13 +1,13 @@
 import Button from "../Components/Button"
 import ShoeCard from "../Components/ShoeCard"
-import { statistics, shoes } from "../Constants"
+import { statistics, bats } from "../Constants"
 import { arrowRight } from "../assets/icons"
 
 import { bat1 } from "../assets/images"
 import { useState } from "react"
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bat1);
+  const [bigBatImg, setBatImg] = useState(bat1);
 
   return (
     <section
@@ -48,7 +48,7 @@ const Hero = () => {
 
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
         <img
-          src={bigShoeImg}
+          src={bigBatImg}
           alt='shoe collection'
           width={300} // Adjusted width
           height={100} // Adjusted height
@@ -57,13 +57,13 @@ const Hero = () => {
         />
 
         <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-4'>
-          {shoes.map((image, index) => (
+          {bats.map((image, index) => (
             <div key={index}>
               <ShoeCard
                 index={index}
                 imgURL={image}
-                changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
-                bigShoeImg={bigShoeImg}
+                changeBigBatImage={(bat) => setBatImg(bat)}
+                bigBatImg={bigBatImg}
               />
             </div>
           ))}

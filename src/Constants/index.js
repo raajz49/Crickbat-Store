@@ -8,19 +8,19 @@ export const navLinks = [
     { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
+export const bats= [
     {
         thumbnail: bat1,
-        bigShoe: bat1,
+        bigBat: bat1,
     },
     {
         thumbnail: bat2,
-        bigShoe: bat2,
+        bigBat: bat2,
         heightClass: 'h-96'
     },
     {
         thumbnail: bat3,
-        bigShoe: bat3,
+        bigBat: bat3,
     },
 ];
 

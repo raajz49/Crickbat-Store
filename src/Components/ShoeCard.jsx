@@ -1,14 +1,14 @@
 
 
-const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
+const ShoeCard = ({ imgURL, changeBigBatImage, bigBatImg }) => {
     const handleClick = () => {
-      if (bigShoeImg !== imgURL.bigShoe) {
-        changeBigShoeImage(imgURL.bigShoe);
+      if (bigBatImg !== imgURL.bigBat) {
+        changeBigBatImage(imgURL.bigBat);
       }
     };
   return (
     <div className={` border-2 rounded-xl
-    ${bigShoeImg===imgURL
+    ${bigBatImg===imgURL
     ? 'border-coral-red' 
 :'border-trasparent'
 } cursor-pointer max-sm:flex-1
@@ -18,7 +18,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
       sm:w-40 sm:h-40 rounded-xl max:sm:p-4'>
         <img 
         src={ imgURL.thumbnail }
-        alt="Shoe Collection" 
+        alt="Bat Collection" 
         width={127}
         height={103}
         className="object-contain rounded-full"
