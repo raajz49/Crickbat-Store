@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3,smith,ellyse, marnus, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, dhoni, dhoni2} from "../assets/images";
+import { bat1,bat2,bat3,smith,ellyse, marnus,  dhoni2, bat4,bat5,bat6, bat7} from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -10,16 +10,17 @@ export const navLinks = [
 
 export const shoes = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        thumbnail: bat1,
+        bigShoe: bat1,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        thumbnail: bat2,
+        bigShoe: bat2,
+        heightClass: 'h-96'
     },
     {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        thumbnail: bat3,
+        bigShoe: bat3,
     },
 ];
 
@@ -31,23 +32,23 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
+        imgURL: bat4,
+        name: "SS Air IPL-10",
         price: "$200.20",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
+        imgURL: bat5,
+        name: "Spartan-5 BBL",
         price: "$210.20",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        imgURL: bat6,
+        name: "Black-Mamba-5",
         price: "$220.20",
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        imgURL: bat7,
+        name: "Labuchangne-16",
         price: "$230.20",
     },
 ];
@@ -75,14 +76,14 @@ export const reviews = [
         imgURL:smith ,
         customerName: 'Steve Smith',
         rating: 4.5,
-        feedback: "Raajz Jutta Dokan offers top-notch shoes with impressive quality. "
+        feedback: "Raajz Bat Pasal offers top-notch  cricket bats with impressive quality. "
     },
     
     {
         imgURL: marnus,
         customerName: 'Marnus Labuchange',
         rating: 4.5,
-        feedback: "The excellent customer service at Raajz Jutta Dokan sets them apart."
+        feedback: "The excellent customer service at Raajz Bat Pasal sets them apart."
     },
 
     {
@@ -104,12 +105,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
+            { name: "Gray-Nicolls", link: "/" },
+            { name: "Kookaburra", link: "/" },
+            { name: "Gunn & Moore", link: "/" },
+            { name: "DSC Condor Pro", link: "/" },
             { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "New Balance DC", link: "/" },
         ],
     },
     {
@@ -125,8 +126,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customer@raajz.com", link: "mailto:customer@raajz.com" },
+            { name: "+9779819262837", link: "tel:+9779819262837" },
         ],
     },
 ];

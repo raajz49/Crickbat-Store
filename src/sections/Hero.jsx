@@ -2,11 +2,12 @@ import Button from "../Components/Button"
 import ShoeCard from "../Components/ShoeCard"
 import { statistics, shoes } from "../Constants"
 import { arrowRight } from "../assets/icons"
-import { bigShoe1 } from "../assets/images"
+
+import { bat1 } from "../assets/images"
 import { useState } from "react"
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setBigShoeImg] = useState(bat1);
 
   return (
     <section
@@ -24,10 +25,10 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
+          <span className='text-coral-red inline-block mt-3'>Cricket</span> Bats
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-          Discover stylish Nike arrivals, quality comfort, and innovation for
+          Discover stylish New-Balance & SS arrivals, quality comfort, and innovation for
           your active life.
         </p>
 
@@ -49,9 +50,9 @@ const Hero = () => {
         <img
           src={bigShoeImg}
           alt='shoe collection'
-          width={610} // Adjusted width
-          height={502} // Adjusted height
-          className='object-contain relative z-10'
+          width={300} // Adjusted width
+          height={100} // Adjusted height
+          className='object-contain relative z-10 rounded-full'
     
         />
 

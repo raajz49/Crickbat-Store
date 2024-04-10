@@ -10,8 +10,8 @@ const PopularProducts = () => {
           Our <span className='text-coral-red'>Popular </span>
             Products
         </h2>
-        <p className=" lg:max-w-lg mt-2 font-montserrat text-slate-gray ">Quality is very good basjhvakcbkjxb ckasbckab
-          HJVJSHBKASBKSCBAKJCBKAJSCBKASSAKJCBJXCKJ KJ CDKBCKBADCKJBA
+        <p className=" lg:max-w-lg mt-2 font-montserrat text-slate-gray ">Discover excellence in every swing with our latest cricket bat collection. Crafted for performance,
+         our bats are engineered with precision and quality to elevate your game to new heights. Dominate the field with confidence and style.
         </p>
         </div>
         <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14">

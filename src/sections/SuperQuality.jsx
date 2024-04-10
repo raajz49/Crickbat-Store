@@ -1,5 +1,5 @@
 import Button from "../Components/Button"
-import { shoe8 } from "../assets/images"
+import { bat8} from "../assets/images"
 
 
 const SuperQuality = () => {
@@ -15,15 +15,12 @@ const SuperQuality = () => {
           <span className='text-coral-red '> Quality</span> Shoes
         </h2>
         <p className='mt-4 lg:max-w-lg info-text '>
-          Discover stylish Nike arrivals, quality comfort, and innovation for
-          your active life.jasssbkdabsdbasjsabik 
-          sdhasdvias
-          ashasd
+        Discover the pinnacle of cricket bat craftsmanship, designed to enhance your performance and elevate your game.
+         Experience unparalleled quality, comfort, and innovation for your active lifestyle.
         </p>
-        <p className="mt-6 lg:max-w-lg">jdbasbkjabksdjb
-        ajbasabksbk sajhdvas shjdvad svashj
-        savasncjbsdcb shcja
-        ds
+        <p className="mt-6 lg:max-w-lg font-palanquin info-text text-slate-400 ">
+          Uncover the essence of excellence in cricket bats, 
+          tailored to elevate your performance and redefine your game.
         </p>
 
       <div className="mt-11 ">
@@ -33,11 +30,11 @@ const SuperQuality = () => {
       </div>
       <div className=" flex-1 flex justify-center items-center">
         <img 
-        src={shoe8}
+        src={bat8}
         alt="shoe8"
         width={570}
         height={522}
-        className="object-contain"
+        className="object-contain rounded-full "
         />
       </div>
 

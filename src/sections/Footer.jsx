@@ -1,5 +1,6 @@
 import { copyrightSign } from "../assets/icons"
-import {footerLogo} from "../assets/images"
+import { fLogo } from "../assets/images"
+
 import {footerLinks, socialMedia} from '../Constants'
 const Footer = () => {
   return (
@@ -8,13 +9,13 @@ const Footer = () => {
       <div className="flex flex-col items-start">
       <a href="/">
         <img 
-        src={footerLogo}
-        width={150}
+        src={fLogo}
+        width={200}
         height={46}
         />
       </a> 
       <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-         Get shoes ready from your nearest nike store</p>
+         Get Bats ready from your nearest Raajz Bat Store</p>
          <div className="flex items-center gap-5 mt-8">
           {socialMedia.map((icon)=>(
             <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full"> 
