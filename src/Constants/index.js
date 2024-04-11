@@ -76,21 +76,21 @@ export const reviews = [
         imgURL:smith ,
         customerName: 'Steve Smith',
         rating: 4.5,
-        feedback: "Raajz Bat Pasal offers top-notch  cricket bats with impressive quality. "
+        feedback: "Cric-Raajz offers top-notch  cricket bats with impressive quality. "
     },
     
     {
         imgURL: marnus,
         customerName: 'Marnus Labuchange',
         rating: 4.5,
-        feedback: "The excellent customer service at Raajz Bat Pasal sets them apart."
+        feedback: "The excellent customer service at Cric-Raajz sets them apart."
     },
 
     {
         imgURL: ellyse,
         customerName: 'Ellyse Perry',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "The product of Cric-Raajz not only met but exceeded my expectations. I'll definitely be a returning customer!"
     },
     {
         imgURL: dhoni2,

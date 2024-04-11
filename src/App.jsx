@@ -13,11 +13,11 @@ import{
 const App =()=>(
 <main className="Relative">
 <Nav />
-<section className="xl:padding-1 wide:padding-r  padding-b">
+<section className="xl:padding-1 wide:padding-r  padding-b ">
 < Hero/>
 </section>
 <section className="padding">
-<PopularProducts />
+<PopularProducts className="mb-8" />
 </section>
 <section className="padding">
 <SuperQuality />
